@@ -24,7 +24,7 @@ trait DistribSensingLib extends BlockG with BlockC with BlockS with StandardSens
     val count = sumCollect(potential, 1.0)
     val avg = collection / count
     val res = broadcast(leaders, avg)
-    f"${if(leaders) "<"+collection+";"+count+">" else ""};${res}%.2g"
+    if(leaders) "<<"+collection+";"+count+">>" else f"${res}%6.2g"
   }
 
   def distanceTo(source: Boolean, metric: => Double = nbrRange): Double = G2(source)(0.0)(_ + metric)()
