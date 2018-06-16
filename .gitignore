@@ -1,0 +1,13 @@
+.DS_Store
+bin/
+build/
+.gradle/
+data/raw/
+.nfs*
+classes/
+.idea/workspace.xml
+exec.txt
+.idea/
+*.iml
+*.ipr
+*.iws
