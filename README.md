@@ -15,10 +15,10 @@ You may find the slides at [this SlideShare account](http://slideshare.net/Rober
 * This project is built using Gradle: see `build.gradle` for details about how to import ScaFi
 * Sources are located within `src/main/scala/it/unibo/demos/coord18/Coord18Demos.scala`
 
-## Play with it and let [us](mailto:roby [dot] casadei {AT} unibo [dot] it) know!
+## Play with it and [let us know](mailto:roby[dot]casadei{AT}unibo[dot]it)!
 
 * We're always eager to find new collaborations!
-* "Can your Aggregate Computing approach be useful for XXX? [Ask us](mailto:roby [dot] casadei {AT} unibo [dot] it)!
+* "Can your Aggregate Computing approach be useful for XXX? [Ask us](mailto:roby[dot]casadei{AT}unibo[dot]it)!
 
 ## Who we are
 
