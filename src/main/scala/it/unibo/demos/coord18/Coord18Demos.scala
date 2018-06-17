@@ -79,11 +79,11 @@ class Main11 extends BasicAggregateProgram {
 class Main12 extends BasicAggregateProgram with StandardSensors {
   def main() =
     rep(Double.PositiveInfinity)(distance =>
-      mux(sense[Boolean]("source")){
+      mux(sense[Boolean]("sens1")){
         0.0
       }{
         minHoodPlus(nbr{distance} + nbrRange)
       }
-    )
+    ).formatted("%4.2g")
 }
 
