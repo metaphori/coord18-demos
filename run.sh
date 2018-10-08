@@ -2,4 +2,4 @@
 
 ./gradlew build
 
-java -jar build/libs/demo-coord18-executable.jar $1
+java -jar build/libs/coord18-demos-executable.jar $1
